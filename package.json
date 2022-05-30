@@ -12,7 +12,7 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:SAD.sad"
+		"*"
 	],
 	"main": "./extension.js",
 	"contributes": {
@@ -20,7 +20,17 @@
 		{
 			"command": "SAD.sad",
 			"title": "Stop all debugging"
-		}]
+		}],
+		"configuration": {
+			"title": "Stop All Debugging",
+			"properties": {
+				"SAD.showButtonOnTaskEvent": {
+					"type": "boolean",
+					"default": true,
+					"description": "Button in status bar will activate when a Task starts. This is to be able to stop debugging even before a debugging session has started."
+				}
+			}
+		}
 	},
 	"scripts": {
 		"lint": "eslint .",
@@ -37,6 +47,10 @@
 		"mocha": "^9.2.2",
 		"typescript": "^4.6.4",
 		"@vscode/test-electron": "^2.1.3"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/SimenRom/Stop-all-debugging-VSCode"
 	}
 
 }
