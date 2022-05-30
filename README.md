@@ -1,6 +1,6 @@
 # SAD README
 
-This plugin makes it easy to stop all debugging sessions. Two ways: use the command 'Stop all debugging' or just 'SAD', or use the button in the task bar down to the right.
+This plugin makes it easy to stop all debugging sessions. Two ways: use the command 'Stop all debugging'/'SAD', or use the button in the task bar down to the right.
 
 ![Image of the button](https://i.imgur.com/PbZtyJh.png)
 
