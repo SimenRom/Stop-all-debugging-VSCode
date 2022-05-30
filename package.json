@@ -2,7 +2,7 @@
   "name": "SAD",
 	"displayName": "Stop All Debugging",
 	"description": "Terminates all running debugging sessions with ONE command or click.",
-	"version": "0.0.2",
+	"version": "0.1.0",
 	"engines": {
 		"vscode": "^1.67.0"
 	},
